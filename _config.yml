@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: elicc
+title: Elicc
 subtitle:
 description:
 author: Elicc
@@ -16,6 +16,9 @@ url: http://yoursite.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
+
+#avatar
+avatar: /images/avatar.jpg
 
 # Directory
 source_dir: source
@@ -64,6 +67,9 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: next
+
+#analytics
+baidu_analytics: 4bdec5c79ae2537ca88453f54a91c826
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

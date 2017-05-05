@@ -45,10 +45,10 @@ index_with_subtitle: false
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  #categories: /categories
+  categories: /categories
   #about: /about
   archives: /archives
-  tags: /tags
+  # tags: /tags
   #sitemap: /sitemap.xml
   #commonweal: /404.html
 
@@ -95,7 +95,7 @@ font:
   enable: true
 
   # Uri of fonts host. E.g. //fonts.googleapis.com (Default)
-  host: //fonts.proxy.ustclug.org 
+  host: //fonts.proxy.ustclug.org
 
   # Global font settings used on <body> element.
   global:
@@ -231,7 +231,7 @@ excerpt_description: true
 # Automatically Excerpt. Not recommend.
 # Please use <!-- more --> in the post to control excerpt accurately.
 auto_excerpt:
-  enable: false
+  enable: true
   length: 150
 
 # Post meta display settings
@@ -280,7 +280,7 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: night eighties 
+highlight_theme: normal
 
 
 # ---------------------------------------------------------------
@@ -301,7 +301,7 @@ han: false
 #swiftype_key:
 
 # Baidu Analytics ID
-#baidu_analytics:
+baidu_analytics: 4bdec5c79ae2537ca88453f54a91c826
 
 # Duoshuo ShortName
 #duoshuo_shortname:
