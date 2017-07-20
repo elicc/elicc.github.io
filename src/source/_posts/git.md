@@ -1,5 +1,5 @@
 ---
-title: git
+title: git基础
 date: 2017-05-05 16:41:18
 tags: git
 categories: 笔记
