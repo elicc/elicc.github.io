@@ -3,7 +3,8 @@
     "version": "0.0.0",
     "private": true,
     "scripts": {
-        "build": "gulp"
+        "build": "hexo generate",
+        "publish": "gulp && cp -rf ./public/** ../ "
     },
     "hexo": {
         "version": "3.3.5"

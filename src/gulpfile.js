@@ -62,5 +62,5 @@ gulp.task('copy', function() {
 
 // 执行 gulp 命令时执行的任务
 gulp.task('default', [
-    'minify-html', 'minify-css', 'minify-js', 'copy',
+    'minify-html', 'minify-css', 'minify-js'
 ]);
